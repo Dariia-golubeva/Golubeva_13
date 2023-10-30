@@ -102,3 +102,29 @@ h1 {
   cursor: pointer;
   margin-left: 10px;
 }
+
+.task-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-card.completed {
+  background-color: #f0f0f0;
+  text-decoration: line-through;
+}
+
+.task-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
